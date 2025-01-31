@@ -1,0 +1,26 @@
+{
+  "name": "toppage",
+  "version": "1.0.0",
+  "description": "pruebas con Selenium",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*spec.js --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinnoth/TOPpage.git"
+  },
+  "author": "cinnoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cinnoth/TOPpage/issues"
+  },
+  "homepage": "https://github.com/cinnoth/TOPpage#readme",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "selenium-webdriver": "^4.28.1"
+  },
+  "devDependencies": {
+    "mocha": "^11.1.0"
+  }
+}

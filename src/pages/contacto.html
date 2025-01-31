@@ -62,23 +62,23 @@
     </header>
 <div class="form">
     <h2>Envía tus comentarios</h2>
-        <div class="form__div">
-            <form action="" method="POST" class="formulario" id="formulario">
-                <fieldset class="datos">
-                    <legend>Datos Generales</legend>
-                    <div class="campo">
-                        <label class="campo_label" for="name">Nombre</label>
-                        <input id="name" class="campo__field" type="text" placeholder="Ingresa tu nombre">
-                        <span class="error" id="error-name"></span>
-                    </div>
-                    <div class="campo">
-                        <label class="campo_label" for="email">Email</label>
-                        <input id="email" class="campo__field" type="email" placeholder="Ingresa tu email">
-                        <span class="error" id="error-email"></span>
-                    </div>
-                    <div class="campo">
-                        <label class="campo_label" for="motivo">Motivo</label>
-                        <select id="motivo" class="campo__field" name="departamento">
+    <div class="form__div">
+        <form action="" method="POST" class="formulario" id="formulario" novalidate>
+            <fieldset class="datos">
+                <legend>Datos Generales</legend>
+                <div class="campo">
+                    <label class="campo_label" for="name">Nombre</label>
+                    <input id="name" class="campo__field" type="text" placeholder="Ingresa tu nombre">
+                    <span class="error" id="error-name"></span>
+                </div>
+                <div class="campo">
+                    <label class="campo_label" for="email">Email</label>
+                    <input id="email" class="campo__field" type="email" placeholder="Ingresa tu email">
+                    <span class="error" id="error-email"></span>
+                </div>
+                <div class="campo">
+                    <label class="campo_label" for="motivo">Motivo</label>
+                    <select id="motivo" class="campo__field" name="departamento">
                             <option value="">Seleccione una opción</option>
                             <option value="1">Recomendación</option>
                             <option value="2">Queja</option>
@@ -92,18 +92,15 @@
                     <div class="campo">
                         <label class="campo_label" for="mensaje">Mensaje</label>
                         <textarea id="mensaje" class="campo__field textarea" placeholder="Escribe tu comentario aquí"
-                            name="mensaje"></textarea>
+                        name="mensaje"></textarea>
                         <span class="error" id="error-mensaje"></span>
-                    </div>
-                    <div class="campo">
-                        <label class="campo_label" for="adjunto">Adjunta un archivo</label>
-                        <input id="adjunto" class="campo__field" type="file">
                     </div>
                 </fieldset>
                 <br>
-                <div>
-                    <input class="btn" type="submit" value="Enviar">
-                </div>
+                
+                <input class="btn" type="submit" value="Enviar">
+                
+                
             </form>
         </div>
 </div>

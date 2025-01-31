@@ -63,7 +63,7 @@ formulario.addEventListener('submit', (e) => {
 
 // Función para enviar datos usando Fetch y Formspree
 function enviarFormulario(datos) {
-    const endpoint = 'https://formspree.io/f/xdkaopzw';
+    const endpoint = 'https://formspree.io/f/xdkaopzw'; //agregar w
 
     return fetch(endpoint, {
         method: 'POST',
