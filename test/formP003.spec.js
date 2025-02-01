@@ -6,7 +6,7 @@ describe("Pruebas del formulario de opiniones", () => {
 
     before(async () => {
         driver = new Builder().forBrowser(Browser.CHROME).build();
-        await driver.get("http://127.0.0.1:5501/src/pages/contacto.html");
+        await driver.get("http://127.0.0.1:3000/src/pages/contacto.html");
     });
 
     it("El formulario debe enviarse correctamente con datos válidos", async () => {

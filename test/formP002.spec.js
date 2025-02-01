@@ -6,7 +6,7 @@ describe("Pruebas del formulario de opiniones", () => {
 
     before(async () => {
         driver = new Builder().forBrowser(Browser.CHROME).build();
-        await driver.get("http://127.0.0.1:5501/src/pages/contacto.html"); // URL del ontenida live server
+        await driver.get("http://127.0.0.1:3000/src/pages/contacto.html"); // URL del ontenida live server
     });
 
          it("El formulario debe mostrar un error si el correo no tiene un formato válido", async () =>{

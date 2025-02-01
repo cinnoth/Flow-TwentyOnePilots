@@ -6,7 +6,7 @@ describe("Pruebas del carrito de compras", () => {
 
     before(async () => {
         driver = await new Builder().forBrowser(Browser.CHROME).build();
-        await driver.get("http://127.0.0.1:5501/src/pages/compras.html");
+        await driver.get("http://127.0.0.1:3000/src/pages/compras.html");
     });
 
     it("Verificar que los productos se agregan correctamente al carrito", async () => {
