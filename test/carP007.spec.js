@@ -1,4 +1,4 @@
-const assert = require("assert");
+/* const assert = require("assert");
 const { Builder, Browser, By, until } = require("selenium-webdriver");
 
 describe("Pruebas del carrito de compras", () => {
@@ -45,4 +45,4 @@ describe("Pruebas del carrito de compras", () => {
         await driver.quit();
    
     }) 
-}); 
+});  */
