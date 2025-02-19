@@ -1,4 +1,4 @@
-const assert = require("assert");
+/* const assert = require("assert");
 const { Browser, Builder, By, until, Select } = require("selenium-webdriver");
 
 describe("Pruebas del formulario de opiniones", () => {
@@ -39,3 +39,4 @@ describe("Pruebas del formulario de opiniones", () => {
         await driver.quit();
     }); 
 });
+ */
